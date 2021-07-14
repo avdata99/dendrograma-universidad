@@ -1,0 +1,104 @@
+{
+	"info": "Lista de datos a publicar",
+	"warning": "Asegúrese de no duplicar los IDs",
+	"results": [{
+		"id": "0",
+		"nombre": "Universidad",
+		"url": "https://www.unc.edu.ar/",
+		"foto": "images/default.png",
+		"depende_de": "",
+		"tipo": "universidad"
+	}, {
+		"id": "100",
+		"nombre": "FAMAF",
+		"url": "https://www.famaf.unc.edu.ar/",
+		"foto": "images/famaf.png",
+		"depende_de": "0",
+		"tipo": "facultad"
+	}, {
+		"id": "101",
+		"nombre": "Ingenieria en algo",
+		"url": "https://www.famaf.unc.edu.ar/ingenieria",
+		"foto": "images/famaf.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "102",
+		"nombre": "Otra Ingenieria",
+		"url": "https://www.famaf.unc.edu.ar/otra",
+		"foto": "images/default.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "103",
+		"nombre": "Otrita",
+		"url": "https://www.famaf.unc.edu.ar/otrita",
+		"foto": "images/default.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "104",
+		"nombre": "Otra",
+		"url": "https://www.famaf.unc.edu.ar/otrita",
+		"foto": "images/default.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "105",
+		"nombre": "Una mas",
+		"url": "https://www.famaf.unc.edu.ar/otrita",
+		"foto": "images/default.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "106",
+		"nombre": "La última",
+		"url": "https://www.famaf.unc.edu.ar/otrita",
+		"foto": "images/default.png",
+		"depende_de": "100",
+		"tipo": "carrera"
+	}, {
+		"id": "200",
+		"nombre": "Ciencias Económicas",
+		"url": "https://www.eco.unc.edu.ar/",
+		"foto": "images/logo_fce.png",
+		"depende_de": "0",
+		"tipo": "facultad"
+	}, {
+		"id": "201",
+		"nombre": "Contador Público",
+		"url": "https://www.eco.unc.edu.ar/carreras-de-grado-estudios/contador-publico",
+		"foto": "images/default.png",
+		"depende_de": "200",
+		"tipo": "carrera"
+	}, {
+		"id": "202",
+		"nombre": "Economista",
+		"url": "https://www.eco.unc.edu.ar/carreras-de-grado-estudios/contador-publico",
+		"foto": "images/default.png",
+		"depende_de": "200",
+		"tipo": "carrera"
+	}, {
+		"id": "203",
+		"nombre": "Una más",
+		"url": "https://www.eco.unc.edu.ar/carreras-de-grado-estudios/contador-publico",
+		"foto": "images/default.png",
+		"depende_de": "200",
+		"tipo": "carrera"
+	}, {
+		"id": "204",
+		"nombre": "Otra más",
+		"url": "https://www.eco.unc.edu.ar/carreras-de-grado-estudios/contador-publico",
+		"foto": "images/default.png",
+		"depende_de": "200",
+		"tipo": "carrera"
+	}, {
+		"id": "205",
+		"nombre": "Una carrera",
+		"url": "https://www.eco.unc.edu.ar/carreras-de-grado-estudios/contador-publico",
+		"foto": "images/default.png",
+		"depende_de": "200",
+		"tipo": "carrera"
+	}
+	]
+}
